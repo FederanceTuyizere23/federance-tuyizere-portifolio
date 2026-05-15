@@ -305,7 +305,7 @@ if (contactForm) {
     submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
     submitBtn.disabled = true;
 
-    fetch {
+    fetch('send.php', {
       method: 'POST',
       body: formData
     })
