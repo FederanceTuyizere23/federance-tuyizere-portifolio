@@ -434,7 +434,7 @@
       <p class="section-sub">Hear directly from me</p>
     </div>
 
-    <div class="pitch-wrapper" data-aos="fade-up">
+   <div class="pitch-grid" data-aos="fade-up">
 
       <!-- LEFT: Video -->
       <div class="video-container">
@@ -681,11 +681,8 @@
               <span>LinkedIn</span>
 
              <a href="https://www.linkedin.com/in/federance-tuyizere-0ba334331/"
-               target="_blank">
-
-              LinkedIn Profile
-
-            </a>
+   target="_blank"
+   rel="noopener noreferrer">
             </div>
 
           </div>
@@ -726,9 +723,14 @@
       <!-- CONTACT FORM -->
       <div class="contact-form-wrap" data-aos="fade-left">
 
-        <form id="contactForm"
-              action="send.php"
-              method="POST">
+       <form name="contact"
+      method="POST"
+      data-netlify="true"
+      id="contactForm">
+
+  <input type="hidden"
+         name="form-name"
+         value="contact">
 
           <!-- NAME -->
           <div class="form-group">
