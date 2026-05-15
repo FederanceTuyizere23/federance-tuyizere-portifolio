@@ -86,7 +86,8 @@ const phrases = [
   'Web Developer',
   'Ethical Hacker in Training',
   'Problem Solver',
-  'ALX Certified Graduate',
+  'ALX Student',
+   'Business information technology  Student',
   'Tech Innovator'
 ];
 let phraseIndex = 0;
